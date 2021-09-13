@@ -1,7 +1,6 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -76,9 +75,13 @@
   flex-wrap: wrap;
   margin-top: 3rem;
 }
-
+.cardTitle {
+  width: 100%;
+}
 .card {
   margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -106,10 +109,18 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
-
+.cardDescription {
+  width: 40%;
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.imgWrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  overflow: hidden;
 }
 .image {
   width: 200px;

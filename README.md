@@ -14,7 +14,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-##IMPORTANT
+## IMPORTANT !!
 Make sure you create a file called .env.local i your root dir /
 please contact me if you get stuck
 add your own private marvel key here 

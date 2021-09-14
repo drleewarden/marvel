@@ -1,3 +1,5 @@
+# MARVEL CHARACTERS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -18,6 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Make sure you create a file called .env.local in your root dir /
 please contact me if you get stuck
 add your own private marvel key here 
+### Remember to restart the server after adding the file
 ```bash
 MARVEL_KEY="{private key goes here}"
 

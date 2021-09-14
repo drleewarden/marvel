@@ -69,7 +69,11 @@ const Home: NextPage = () => {
                     />
                   </div>
                   <br />
-                  <i className={styles.cardDescription}>{char?.description}</i>
+                  <div className={styles.decWrapper}>
+                    <i className={styles.cardDescription}>
+                      {char?.description}
+                    </i>
+                  </div>
                 </div>
               );
             })}

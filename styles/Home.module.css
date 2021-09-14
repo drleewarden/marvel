@@ -110,7 +110,6 @@
   line-height: 1.5;
 }
 .cardDescription {
-  width: 40%;
 }
 .logo {
   height: 1em;
@@ -126,7 +125,12 @@
   width: 200px;
   height: 200px;
 }
-
+.decWrapper {
+  height: 177px;
+  overflow: hidden;
+  width: 42%;
+  margin: 15px;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

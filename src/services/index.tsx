@@ -1,8 +1,8 @@
 import md5 from "js-md5";
 
 export const makeUrl = () => {
-  const PUBLIC_KEY = "a4e7bbfa422fc0992aabb7e7db6c67c7"; //'c853e56911bdee9ba6b85003847f0fe0'; // your public key
-  const PRIVATE_KEY = "486ccd83837f6c4487cbc93063d4390d5f3a69e3"; //'29e28e337c0e480db0ad5e263de539e247d4ebd7'; // your private key
+  const PUBLIC_KEY = "a4e7bbfa422fc0992aabb7e7db6c67c7";
+  const PRIVATE_KEY = process.env.MARVEL;
   const ts = Number(new Date());
   const hash = md5.create();
   hash.update(ts + PRIVATE_KEY + PUBLIC_KEY);

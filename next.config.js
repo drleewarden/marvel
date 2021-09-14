@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
+  env: {
+    MARVEL: process.env.MARVEL_KEY || "",
+  },
 }
+
